@@ -1,0 +1,305 @@
+:root {
+    --bg-gradint: #3B2A9F;
+    --secondary-color: #FA8305;
+    --primary-100: #5141AA;
+    --black-700: #000;
+    --brown-box: #1C140F;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: rubik;
+    src: url(../assets/fonts/Rubik-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+.body {
+    background-color: var(--bg-gradint);
+}
+
+
+.head {
+    background-color: var(--bg-gradint);
+}
+
+
+
+.btn1 {
+    background-color: var(--secondary-color);
+}
+
+
+
+.btn2 {
+    background-color: var(--primary-100);
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+.bg {
+    background-color: var(--primary-100);
+}
+
+
+
+#head-S1 {
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 29px;
+}
+
+
+
+#head-S2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+#head-S3 {
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.hr {
+    border-color: var(--secondary-color);
+}
+
+
+
+.S1-el1 {
+    color: var(--secondary-color);
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.S1-el2 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.S1-el3 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.S1-el4 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.joy-stick {
+    margin-top: -200px;
+}
+
+.unity {
+    margin-top: 200px;
+    margin-left: -150px;
+    height: 30px;
+    width: 96px;
+}
+
+.cry {
+    margin-left: 50px;
+    height: 99px;
+    width: 101px;
+}
+
+.unreal {
+    margin-left: 400px;
+    margin-top: 15px;
+    height: 64px;
+    width: 59px;
+}
+
+.S2-el1 {
+    font-family: rubik;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.S2-el2 {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.S3 {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#img:hover {
+    opacity: 0.5;
+}
+
+#img {
+    transition: 0.5s;
+}
+
+.card-body:hover {
+    scale: 1.2;
+}
+
+.card-body {
+    transition: 0.5s;
+}
+
+.S4 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.S5-el1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.S5-el2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.S6-el1 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.S6-el2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.S6-el3 {
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.S7 {
+    background-color: var(--brown-box);
+}
+
+.S7-el1 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.S7-el2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.S7-el3 {
+    outline: none;
+}
+
+.S7-el4 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: var(--black-700);
+}
+
+.foot-el1 {
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.foot-el2 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.foot-el3 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.foot-el4 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.foot-el5 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+}
+
+@media screen and (max-width: 575px) {
+    .icon {
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+    }
+}
